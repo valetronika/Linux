@@ -1,0 +1,13 @@
+   0 vi /tmp/file.txt
+   1 df -h | head -3 >> /tmp/file.txt
+   2 chmod g+w,u-r,o+x /tmp/file.txt 
+   3 history > /tmp/history.txt
+   
+   
+   or
+   
+      0 vi /tmp/file.txt
+   1 df -h | head -3 >> /tmp/file.txt
+   2 ls -l /tmp/
+   3 chmod 265 /tmp/file.txt 
+   4 history > /tmp/history.txt
