@@ -1,0 +1,10 @@
+Wed Nov 16 22:23:05 UTC 2022
+Filesystem           1K-blocks      Used Available Use% Mounted on
+/dev/root              5120000   2417704   2702296  47% /
+Filesystem                Size      Used Available Use% Mounted on
+/dev/root                 4.9G      2.3G      2.6G  47% /
+   0 date > 1.txt 
+   1 df / >> 1.txt  && df -h / >> 1.txt 
+   2 history | tail -5 >> 1.txt 
+AuthenticX86
+33
