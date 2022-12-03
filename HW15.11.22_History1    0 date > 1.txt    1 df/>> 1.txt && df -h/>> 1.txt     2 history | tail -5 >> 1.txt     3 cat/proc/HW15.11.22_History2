@@ -1,0 +1,7 @@
+   0 date > 1.txt 
+   1 df / >> 1.txt  && df -h / >> 1.txt 
+   2 history | tail -5 >> 1.txt 
+   3 cat /proc/cpuinfo  | grep vendor |awk '{ print $ 3}' >> 1.txt 
+   4 ps -ef | wc -l >> 1.txt 
+   5 export_file 1.txt 
+   6 history > history2.txt
