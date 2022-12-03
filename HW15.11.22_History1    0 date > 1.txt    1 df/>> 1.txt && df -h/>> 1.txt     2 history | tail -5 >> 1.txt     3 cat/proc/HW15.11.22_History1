@@ -1,0 +1,8 @@
+
+   0 date > 1.txt
+   1 df / >> 1.txt && df -h / >> 1.txt 
+   2 history | tail -5 >> 1.txt 
+   3 cat /proc/cpuinfo | awk '{ print $ 3}' | head -2 | tail -1 >> 1.txt 
+   4 ps -ef | grep root | wc -l >> 1.txt 
+   5 export_file 1.txt 
+   6 history >> 1.txt 
